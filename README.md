@@ -2,7 +2,7 @@
 
 As of release 2.3.5, DNA Center has the ability to do regular scheduled updates (daily, weekly or custom) but no way of setting a policy that determines how many backups are kept. This means that Operations teams must periodically check and manually delete old backups before storage runs out on the target.
 
-This tool can be deployed in a Docker environment (any machine that runs the Docker Engine) in order to enforce a backup policy for DNA Center. The script runs daily at 2AM and retrieves the list of backups from DNA Center. Based on the retention policy set by the user, it deletes backups starting with the oldest ones until the number of backups in DNA Center matches the retention policy.
+This tool can be deployed in a Docker environment (any machine that runs the Docker Engine) in order to enforce a backup policy for DNA Center. The script runs daily at 2AM and retrieves the list of backups from DNA Center. Based on the retention policy set by the user, it deletes backups in backwards chronological order (from oldest to newest) until the number of backups in DNA Center matches the retention policy.
 
 ## Deployment guide
 

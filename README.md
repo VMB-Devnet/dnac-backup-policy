@@ -58,7 +58,7 @@ WEBEX_TOKEN=ZDA4YWI2NjYtNzc3Ni00YmRlLTldasdsakdkhlasddkYTAyZjJhOTYtNjJk_PF84_cca
 WEBEX_RECIPIENT=the.it.guy@narnia.nhs.net  
 RETENTION_POLICY=2  
 
-Note: the token in the example above is only an example.
+***Note: the token in the example above is only an example.***
 
 3) From the directory where the "docker-compose.yml" file and the "app" folder are located, run the following commands:
 
@@ -73,7 +73,6 @@ To check that the container has been deployed correctly run:
 
 You should then see a list of all running containers and there should be an entry that looks like this:
 
-CONTAINER ID   IMAGE                       COMMAND                  CREATED          STATUS          PORTS                                                                                                NAMES  
-9219d84b7f51   dnac-backup-policy:latest   "crond -f"               43 seconds ago   Up 42 seconds                                                                                                        DNAC-backup-policy
+[](url)
 
-Note: The "CONTAINER ID", "CREATED" and "STATUS" fields will be different. A successfull deployment should show similar values for "CREATED" and "STATUS".
+***Note: The "CONTAINER ID", "CREATED" and "STATUS" fields will be different. A successfull deployment should show similar values for "CREATED" and "STATUS".***

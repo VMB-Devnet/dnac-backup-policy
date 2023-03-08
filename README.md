@@ -2,7 +2,7 @@
 
 As of release 2.3.5, DNA Center has the ability to do regular scheduled updates (daily, weekly or custom) but no way of setting a policy that determines how many backups are kept. This means that Operations teams must periodically check and manually delete old backups before storage runs out on the target.
 
-This tool can be deployed in a Docker environment (any machine that runs the Docker engine) in order to enforce a backup policy for DNA Center. The script runs daily at 2AM and retrieves the list of backups from DNA Center. Based on the retention policy set by the user, it deletes backups starting with the oldest ones until the number of backups in DNA Center matches the retention policy.
+This tool can be deployed in a Docker environment (any machine that runs the Docker Engine) in order to enforce a backup policy for DNA Center. The script runs daily at 2AM and retrieves the list of backups from DNA Center. Based on the retention policy set by the user, it deletes backups starting with the oldest ones until the number of backups in DNA Center matches the retention policy.
 
 ## Deployment guide
 
@@ -10,14 +10,14 @@ This tool can be deployed in a Docker environment (any machine that runs the Doc
 
 In order to use the tool you will need the following:
 
-1) Computer or VM running any OS that supports the Docker engine (compatible OS's can be found here - https://docs.docker.com/engine/install/)
+1) Computer or VM running any OS that supports the Docker Engine (compatible OS's can be found here - https://docs.docker.com/engine/install/) + Docker Engine and Docker Compose installed
 2) The computer or VM must be able to reach DNA Center 
 3) A DNA Center user with administrator access (not recommended) or with read/write access to Platform APIs and System Management (recommended - a custom profile with these permissions can be created in DNA Center under "Users & Roles" > "Role Based Access Control")
 4) (Optional) A Webex personal access token (not recommended) or a BOT access token (recommended). This will allow the tool to send confirmation messages whenever it successfully runs.
 
 ### Configuration and deployment
 
-1) Download the tool or clone the repository into a folder on the machine the runs the Docker engine.
+1) Download the tool or clone the repository into a folder on the machine the runs the Docker Engine.
 2) Before deploying the tool you must edit the ".env" file from the "app" directory with the values specific to your setup. Each value is explained below:
 
 **DNA_CENTER_BASE_URL** - this is the IP or FQDN of the DNA Center that the tool will connect to.  

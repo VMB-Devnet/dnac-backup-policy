@@ -73,7 +73,7 @@ To check that the container has been deployed correctly run:
 
 You should then see a list of all running containers and there should be an entry that looks like this:
 
-CONTAINER ID   IMAGE                       COMMAND                  CREATED          STATUS          PORTS                                                                                                NAMES
+CONTAINER ID   IMAGE                       COMMAND                  CREATED          STATUS          PORTS                                                                                                NAMES  
 9219d84b7f51   dnac-backup-policy:latest   "crond -f"               43 seconds ago   Up 42 seconds                                                                                                        DNAC-backup-policy
 
 Note: The "CONTAINER ID", "CREATED" and "STATUS" fields will be different. A successfull deployment should show similar values for "CREATED" and "STATUS".

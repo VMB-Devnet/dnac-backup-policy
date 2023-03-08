@@ -25,7 +25,9 @@ In order to use the tool you will need the following:
 | **DNA_CENTER_BASE_URL** | IP or FQDN of the DNA Center that the tool will connect to.|  
 | **DNA_CENTER_USERNAME** | Username that the tool will use to connect to DNA Center.|  
 | **DNA_CENTER_PASSWORD** | Password that the tool will use to connect to DNA Center.|  
-| **WEBEX_NOTIFICATION_ENABLED** | Can be "True" or "False" (no quotes). If "True" the tool will send a Webex Teams message with each successfull run to the person set in the "WEBEX_RECIPIENT" variable. If "False" the tool will not send a Webex Teams notifications.|  
+| **WEBEX_NOTIFICATION_ENABLED** | Can be "True" or "False" (no quotes). If "True" the tool will send a Webex Teams message with each successfull run to the person set in the "WEBEX_RECIPIENT" variable. If "False" the tool will not send a Webex Teams notifications.
+
+**IMPORTANT**: If set to "True", the **WEBEX_TOKEN** and **WEBEX_RECIPIENT** must be configured as well! |  
 | **WEBEX_TOKEN** | The Webex API token to use. Can be either personal or BOT token (BOT token is recommended) - see https://developer.webex.com/docs/bots for details on how to obtain the token.|  
 | **WEBEX_RECIPIENT** | Email of the person to whom the confirmation message will be sent when the tool successfully runs. The email must be associated with a Webex Teams user.|  
 | **RETENTION_POLICY** | Number of DNA Center backups to keep. If set to 0, the tool will delete all backups.|  

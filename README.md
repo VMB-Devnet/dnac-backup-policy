@@ -62,14 +62,14 @@ Note: the token in the example above is only an example.
 
 3) From the directory where the "docker-compose.yml" file and the "app" folder are located, run the following commands:
 
-*docker-compose build --no-cache*
-*docker-compose up -d*
+**docker-compose build --no-cache**  
+**docker-compose up -d**  
 
 ### Checking the deployment
 
 To check that the container has been deployed correctly run:
 
-*docker ps*
+**docker ps**  
 
 You should then see a list of all running containers and there should be an entry that looks like this:
 

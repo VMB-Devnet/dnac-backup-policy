@@ -58,7 +58,7 @@ This is an example of a completed ".env" file for customer NHS Narnia (their dom
         WEBEX_RECIPIENT=the.it.guy@narnia.nhs.net  
         RETENTION_POLICY=2  
 
->Note: the token in the snippet above is only an example.
+>*Note: the token in the snippet above is only an example.*
 
 3. From the directory where the "docker-compose.yml" file and the "app" folder are located, run the following commands:
 
@@ -75,4 +75,4 @@ You should then see a list of all running containers and there should be an entr
 
 ![docker-ps-output](https://nca-dev.techsupport.co.uk/gitlab/DNAC/backup-policy-tool/-/raw/master/images/docker-ex.PNG)
 
->Note: The "CONTAINER ID", "CREATED" and "STATUS" fields will be different. A successfull deployment should show similar values for "CREATED" and "STATUS" which would indicate the the container runs and is not in a restart loop.***
+>*Note: The "CONTAINER ID", "CREATED" and "STATUS" fields will be different. A successfull deployment should show similar values for "CREATED" and "STATUS" which would indicate the the container runs and is not in a restart loop.*

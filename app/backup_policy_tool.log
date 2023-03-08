@@ -1,0 +1,53 @@
+[07/03/2023 17:55:07.945] [INFO] [native-manage-backups.py] [getAuthenticationToken():64] Authenticating to DNAC...
+[07/03/2023 17:55:07.961] [ERROR] [native-manage-backups.py] [makeRequest():43] Operation failed!
+[07/03/2023 17:55:07.962] [DEBUG] [native-manage-backups.py] [makeRequest():44] Error encountered:
+HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //10.221.0.103/dna/system/api/v1/auth/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f1d86d47ca0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[07/03/2023 17:55:07.963] [ERROR] [native-manage-backups.py] [getAuthenticationToken():70] Authentication failed! Script terminating!
+[07/03/2023 17:58:08.168] [INFO] [native-manage-backups.py] [getAuthenticationToken():64] Authenticating to DNAC...
+[07/03/2023 17:58:08.415] [INFO] [native-manage-backups.py] [makeRequest():47] Request successfull!
+[07/03/2023 17:58:08.419] [INFO] [native-manage-backups.py] [applyBackupPolicy():105] Current backup policy: keep newest 2 backup(s).
+[07/03/2023 17:58:08.422] [INFO] [native-manage-backups.py] [getBackupsList():75] Attempting to retrieve the list of backups...
+[07/03/2023 17:58:09.179] [INFO] [native-manage-backups.py] [makeRequest():47] Request successfull!
+[07/03/2023 17:58:09.182] [INFO] [native-manage-backups.py] [getBackupsList():79] Backups list successfully retrieved!
+[07/03/2023 17:58:09.182] [INFO] [native-manage-backups.py] [getBackupsList():80] There are currently 1 backups available for this DNAC node:
+[07/03/2023 17:58:09.183] [INFO] [native-manage-backups.py] [getBackupsList():84] 1 - Name: backup2 -> Size: 234.263427 MB -> Start time: 2023-03-07 10:37:08 -> End time: 2023-03-07 10:37:55-> Completion status: SUCCESS
+[07/03/2023 17:58:52.190] [INFO] [native-manage-backups.py] [getAuthenticationToken():64] Authenticating to DNAC...
+[07/03/2023 17:58:52.413] [INFO] [native-manage-backups.py] [makeRequest():47] Request successfull!
+[07/03/2023 17:58:52.414] [INFO] [native-manage-backups.py] [applyBackupPolicy():105] Current backup policy: keep newest 2 backup(s).
+[07/03/2023 17:58:52.415] [INFO] [native-manage-backups.py] [getBackupsList():75] Attempting to retrieve the list of backups...
+[07/03/2023 17:58:52.441] [INFO] [native-manage-backups.py] [makeRequest():47] Request successfull!
+[07/03/2023 17:58:52.442] [INFO] [native-manage-backups.py] [getBackupsList():79] Backups list successfully retrieved!
+[07/03/2023 17:58:52.442] [INFO] [native-manage-backups.py] [getBackupsList():80] There are currently 1 backups available for this DNAC node:
+[07/03/2023 17:58:52.443] [INFO] [native-manage-backups.py] [getBackupsList():84] 1 - Name: backup2 -> Size: 234.263427 MB -> Start time: 2023-03-07 10:37:08 -> End time: 2023-03-07 10:37:55-> Completion status: SUCCESS
+[07/03/2023 17:58:52.443] [INFO] [native-manage-backups.py] [applyBackupPolicy():112] Policy has been applied! 0 old backup(s) have been purged.
+[07/03/2023 17:58:52.952] [INFO] [native-manage-backups.py] [sendWebexMessageToPerson():135] Message successfully sent!
+[08/03/2023 11:41:37.612] [INFO] [native-manage-backups.py] [getAuthenticationToken():64] Authenticating to DNAC...
+[08/03/2023 11:41:37.866] [INFO] [native-manage-backups.py] [makeRequestToDNAC():47] Request successfull!
+[08/03/2023 11:41:37.866] [INFO] [native-manage-backups.py] [applyBackupPolicy():105] Current backup policy: keep newest 2 backup(s).
+[08/03/2023 11:41:37.866] [INFO] [native-manage-backups.py] [getBackupsList():75] Attempting to retrieve the list of backups...
+[08/03/2023 11:41:40.942] [INFO] [native-manage-backups.py] [makeRequestToDNAC():47] Request successfull!
+[08/03/2023 11:41:40.943] [INFO] [native-manage-backups.py] [getBackupsList():79] Backups list successfully retrieved!
+[08/03/2023 11:41:40.943] [INFO] [native-manage-backups.py] [getBackupsList():80] There are currently 1 backups available for this DNAC node:
+[08/03/2023 11:41:40.944] [INFO] [native-manage-backups.py] [getBackupsList():84] 1 - Name: backup2 -> Size: 234.263427 MB -> Start time: 2023-03-07 10:37:08 -> End time: 2023-03-07 10:37:55-> Completion status: SUCCESS
+[08/03/2023 11:41:40.944] [INFO] [native-manage-backups.py] [applyBackupPolicy():112] Policy has been applied! 0 old backup(s) have been purged.
+[08/03/2023 11:41:42.490] [INFO] [native-manage-backups.py] [sendWebexMessageToPerson():135] Message successfully sent!
+[08/03/2023 11:42:46.714] [INFO] [native-manage-backups.py] [getAuthenticationToken():64] Authenticating to DNAC...
+[08/03/2023 11:42:46.922] [DEBUG] [native-manage-backups.py] [makeRequestToDNAC():47] Request successfull!
+[08/03/2023 11:42:46.922] [INFO] [native-manage-backups.py] [applyBackupPolicy():105] Current backup policy: keep newest 2 backup(s).
+[08/03/2023 11:42:46.922] [INFO] [native-manage-backups.py] [getBackupsList():75] Attempting to retrieve the list of backups...
+[08/03/2023 11:42:46.988] [DEBUG] [native-manage-backups.py] [makeRequestToDNAC():47] Request successfull!
+[08/03/2023 11:42:46.989] [INFO] [native-manage-backups.py] [getBackupsList():79] Backups list successfully retrieved!
+[08/03/2023 11:42:46.989] [INFO] [native-manage-backups.py] [getBackupsList():80] There are currently 1 backups available for this DNAC node:
+[08/03/2023 11:42:46.989] [INFO] [native-manage-backups.py] [getBackupsList():84] 1 - Name: backup2 -> Size: 234.263427 MB -> Start time: 2023-03-07 10:37:08 -> End time: 2023-03-07 10:37:55-> Completion status: SUCCESS
+[08/03/2023 11:42:46.989] [INFO] [native-manage-backups.py] [applyBackupPolicy():112] Policy has been applied! 0 old backup(s) have been purged.
+[08/03/2023 11:42:47.503] [INFO] [native-manage-backups.py] [sendWebexMessageToPerson():135] Message successfully sent!
+[08/03/2023 12:19:04.926] [INFO] [main.py] [getAuthenticationToken():64] Authenticating to DNAC...
+[08/03/2023 12:19:05.149] [DEBUG] [main.py] [makeRequestToDNAC():47] Request successfull!
+[08/03/2023 12:19:05.150] [INFO] [main.py] [applyBackupPolicy():105] Current backup policy: keep newest 2 backup(s).
+[08/03/2023 12:19:05.150] [INFO] [main.py] [getBackupsList():75] Attempting to retrieve the list of backups...
+[08/03/2023 12:19:05.661] [DEBUG] [main.py] [makeRequestToDNAC():47] Request successfull!
+[08/03/2023 12:19:05.662] [INFO] [main.py] [getBackupsList():79] Backups list successfully retrieved!
+[08/03/2023 12:19:05.662] [INFO] [main.py] [getBackupsList():80] There are currently 1 backups available for this DNAC node:
+[08/03/2023 12:19:05.663] [INFO] [main.py] [getBackupsList():84] 1 - Name: backup2 -> Size: 234.263427 MB -> Start time: 2023-03-07 10:37:08 -> End time: 2023-03-07 10:37:55-> Completion status: SUCCESS
+[08/03/2023 12:19:05.663] [INFO] [main.py] [applyBackupPolicy():112] Policy has been applied! 0 old backup(s) have been purged.
+[08/03/2023 12:19:06.153] [INFO] [main.py] [sendWebexMessageToPerson():135] Message successfully sent!

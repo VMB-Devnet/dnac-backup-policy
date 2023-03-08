@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  dnac-backup-policy:
+    container_name: DNAC-backup-policy
+    image: dnac-backup-policy:latest
+    build: ./app
+    tty: true
+    restart: always

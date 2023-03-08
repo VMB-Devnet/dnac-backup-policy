@@ -20,13 +20,13 @@ In order to use the tool you will need the following:
 1. Download the tool or clone the repository into a folder on the machine the runs the Docker Engine.
 2. Before deploying the tool you must edit the ".env" file from the "app" directory with the values specific to your setup. Each value is explained below:
 
-**DNA_CENTER_BASE_URL** - this is the IP or FQDN of the DNA Center that the tool will connect to.  
-**DNA_CENTER_USERNAME** - this is the username that the tool will use to connect to DNA Center.  
-**DNA_CENTER_PASSWORD** - this is the password that the tool will use to connect to DNA Center.  
-**WEBEX_NOTIFICATION_ENABLED** - can be "True" or "False" (no quotes). If "True" the tool will send a Webex Teams message with each successfull run to the person set in the "WEBEX_RECIPIENT" variable. If "False" the tool will not send a Webex Teams notifications.  
-**WEBEX_TOKEN** - the Webex API token to use. Can be either personal or BOT token (BOT token is recommended) - see https://developer.webex.com/docs/bots for details on how to obtain the token.  
-**WEBEX_RECIPIENT** - email of person to whom the confirmation message will be sent when the tool successfully runs. The email must be associated with a Webex Teams user.  
-**RETENTION_POLICY** - number of DNA Center backups to keep. If set to 0, the tool will delete all backups.  
+        **DNA_CENTER_BASE_URL** - this is the IP or FQDN of the DNA Center that the tool will connect to.  
+        **DNA_CENTER_USERNAME** - this is the username that the tool will use to connect to DNA Center.  
+        **DNA_CENTER_PASSWORD** - this is the password that the tool will use to connect to DNA Center.  
+        **WEBEX_NOTIFICATION_ENABLED** - can be "True" or "False" (no quotes). If "True" the tool will send a Webex Teams message with each successfull run to the person set in the "WEBEX_RECIPIENT" variable. If "False" the tool will not send a Webex Teams notifications.  
+        **WEBEX_TOKEN** - the Webex API token to use. Can be either personal or BOT token (BOT token is recommended) - see https://developer.webex.com/docs/bots for details on how to obtain the token.  
+        **WEBEX_RECIPIENT** - email of person to whom the confirmation message will be sent when the tool successfully runs. The email must be associated with a Webex Teams user.  
+        **RETENTION_POLICY** - number of DNA Center backups to keep. If set to 0, the tool will delete all backups.  
 
 Below is the ".env" file supplied in the project "app" directory:
 

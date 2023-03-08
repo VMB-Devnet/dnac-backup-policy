@@ -10,15 +10,15 @@ This tool can be deployed in a Docker environment (any machine that runs the Doc
 
 In order to use the tool you will need the following:
 
-1) Computer or VM running any OS that supports the Docker Engine (compatible OS's can be found here - https://docs.docker.com/engine/install/) + Docker Engine and Docker Compose installed
-2) The computer or VM must be able to reach DNA Center 
-3) A DNA Center user with administrator access (not recommended) or with read/write access to Platform APIs and System Management (recommended - a custom profile with these permissions can be created in DNA Center under "Users & Roles" > "Role Based Access Control")
-4) (Optional) A Webex personal access token (not recommended) or a BOT access token (recommended). This will allow the tool to send confirmation messages whenever it successfully runs.
+1. Computer or VM running any OS that supports the Docker Engine (compatible OS's can be found here - https://docs.docker.com/engine/install/) + Docker Engine and Docker Compose installed
+2. The computer or VM must be able to reach DNA Center 
+3. A DNA Center user with administrator access (not recommended) or with read/write access to Platform APIs and System Management (recommended - a custom profile with these permissions can be created in DNA Center under "Users & Roles" > "Role Based Access Control")
+4. (Optional) A Webex personal access token (not recommended) or a BOT access token (recommended). This will allow the tool to send confirmation messages whenever it successfully runs.
 
 ### Configuration and deployment
 
-1) Download the tool or clone the repository into a folder on the machine the runs the Docker Engine.
-2) Before deploying the tool you must edit the ".env" file from the "app" directory with the values specific to your setup. Each value is explained below:
+1. Download the tool or clone the repository into a folder on the machine the runs the Docker Engine.
+2. Before deploying the tool you must edit the ".env" file from the "app" directory with the values specific to your setup. Each value is explained below:
 
 **DNA_CENTER_BASE_URL** - this is the IP or FQDN of the DNA Center that the tool will connect to.  
 **DNA_CENTER_USERNAME** - this is the username that the tool will use to connect to DNA Center.  
@@ -60,7 +60,7 @@ RETENTION_POLICY=2
 
 >Note: the token in the snippet above is only an example.
 
-3) From the directory where the "docker-compose.yml" file and the "app" folder are located, run the following commands:
+3. From the directory where the "docker-compose.yml" file and the "app" folder are located, run the following commands:
 
 >docker-compose build --no-cache  
 >docker-compose up -d
@@ -75,4 +75,4 @@ You should then see a list of all running containers and there should be an entr
 
 ![docker-ps-output](https://nca-dev.techsupport.co.uk/gitlab/DNAC/backup-policy-tool/-/raw/master/images/docker-ex.PNG)
 
-***Note: The "CONTAINER ID", "CREATED" and "STATUS" fields will be different. A successfull deployment should show similar values for "CREATED" and "STATUS".***
+>Note: The "CONTAINER ID", "CREATED" and "STATUS" fields will be different. A successfull deployment should show similar values for "CREATED" and "STATUS" which would indicate the the container runs and is not in a restart loop.***

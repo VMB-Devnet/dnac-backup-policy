@@ -11,7 +11,7 @@ This tool can be deployed in a Docker environment (any machine that runs the Doc
 In order to use the tool you will need the following:
 
 1) Computer or VM running any OS that supports the Docker engine (compatible OS's can be found here - https://docs.docker.com/engine/install/)
-2) The comupter or VM must be able to reach DNA Center 
+2) The computer or VM must be able to reach DNA Center 
 3) A DNA Center user with administrator access (not recommended) or with read/write access to Platform APIs and System Management (recommended - a custom profile with these permissions can be created in DNA Center under "Users & Roles" > "Role Based Access Control")
 4) (Optional) A Webex personal access token (not recommended) or a BOT access token (recommended). This will allow the tool to send confirmation messages whenever it successfully runs.
 

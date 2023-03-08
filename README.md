@@ -20,7 +20,9 @@ In order to use the tool you will need the following:
 1. Download the tool or clone the repository into a folder on the machine the runs the Docker Engine.
 2. Before deploying the tool you must edit the ".env" file from the "app" directory with the values specific to your setup. Each value is explained below:
 
-**DNA_CENTER_BASE_URL** - this is the IP or FQDN of the DNA Center that the tool will connect to.  
+| VARIABLE | DESCRIPTION |
+|----------|-------------|
+| **DNA_CENTER_BASE_URL** | This is the IP or FQDN of the DNA Center that the tool will connect to.|  
 **DNA_CENTER_USERNAME** - this is the username that the tool will use to connect to DNA Center.  
 **DNA_CENTER_PASSWORD** - this is the password that the tool will use to connect to DNA Center.  
 **WEBEX_NOTIFICATION_ENABLED** - can be "True" or "False" (no quotes). If "True" the tool will send a Webex Teams message with each successfull run to the person set in the "WEBEX_RECIPIENT" variable. If "False" the tool will not send a Webex Teams notifications.  

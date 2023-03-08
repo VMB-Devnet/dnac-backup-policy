@@ -58,7 +58,7 @@ WEBEX_TOKEN=ZDA4YWI2NjYtNzc3Ni00YmRlLTldasdsakdkhlasddkYTAyZjJhOTYtNjJk_PF84_cca
 WEBEX_RECIPIENT=the.it.guy@narnia.nhs.net  
 RETENTION_POLICY=2  
 
-***Note: the token in the example above is only an example.***
+***Note: the token in the snippet above is only an example.***
 
 3) From the directory where the "docker-compose.yml" file and the "app" folder are located, run the following commands:
 

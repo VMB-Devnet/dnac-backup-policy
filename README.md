@@ -73,6 +73,6 @@ To check that the container has been deployed correctly run:
 
 You should then see a list of all running containers and there should be an entry that looks like this:
 
-![alt text](images/docker-ex.png "docker ps output")
+![docker-ps-output](https://nca-dev.techsupport.co.uk/gitlab/DNAC/backup-policy-tool/-/blob/master/images/docker-ex.PNG "docker ps output")
 
 ***Note: The "CONTAINER ID", "CREATED" and "STATUS" fields will be different. A successfull deployment should show similar values for "CREATED" and "STATUS".***

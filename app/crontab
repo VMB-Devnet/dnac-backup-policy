@@ -1,1 +1,1 @@
-* 2 * * * python3 /app/main.py >> /app/cronlog.log
+0 2 * * * python3 /app/main.py >> /app/cronlog.log

@@ -17,6 +17,8 @@ In order to use the tool you will need the following:
 2. The computer or VM must be able to reach DNA Center 
 3. A DNA Center user with administrator access (not recommended) or with read/write access to Platform APIs and System Management (recommended - a custom profile with these permissions can be created in DNA Center under "Users & Roles" > "Role Based Access Control")
 4. (Optional) A Webex personal access token (not recommended) or a BOT access token (recommended). This will allow the tool to send confirmation messages whenever it successfully runs.
+> [How to obtain a Webex personal token](https://developer.webex.com/docs/getting-your-personal-access-token)  
+> [How to obtain a Webex BOT token](https://developer.webex.com/docs/bots)  
 
 ### Configuration and deployment
 
@@ -29,7 +31,7 @@ In order to use the tool you will need the following:
 | **DNA_CENTER_USERNAME** | Username that the tool will use to connect to DNA Center.|  
 | **DNA_CENTER_PASSWORD** | Password that the tool will use to connect to DNA Center.|  
 | **WEBEX_NOTIFICATION_ENABLED** | Can be "True" or "False" (no quotes). If "True" the tool will send a Webex Teams message with each successfull run to the person set in the "WEBEX_RECIPIENT" variable. If "False" the tool will not send a Webex Teams notifications.<br><br>  **IMPORTANT**: If set to "True", the **WEBEX_TOKEN** and **WEBEX_RECIPIENT** variables must be configured as well! |  
-| **WEBEX_TOKEN** | The Webex API token to use. Can be either personal or BOT token (BOT token is recommended) - see [here](https://developer.webex.com/docs/bots) for details on how to obtain the token.|  
+| **WEBEX_TOKEN** | The Webex API token to use. Can be either personal or BOT token (BOT token is recommended).|  
 | **WEBEX_RECIPIENT** | Email of the person to whom the confirmation message will be sent when the tool successfully runs. The email must be associated with a Webex Teams user.|  
 | **RETENTION_POLICY** | Number of DNA Center backups to keep. If set to 0, the tool will delete all backups.|  
 

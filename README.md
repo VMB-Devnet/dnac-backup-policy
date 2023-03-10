@@ -73,6 +73,10 @@ This is an example of a completed ".env" file for customer NHS Narnia (their dom
 >docker-compose build --no-cache  
 >docker-compose up -d
 
+You should see an output similar to this:
+
+![docker-compose-output](https://nca-dev.techsupport.co.uk/gitlab/DNAC/backup-policy-tool/-/raw/master/images/docker-deployment.gif)  
+
 ### Checking the deployment
 
 To check that the container has been deployed correctly run:

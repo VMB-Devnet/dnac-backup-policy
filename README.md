@@ -12,7 +12,7 @@ In order to use the tool you will need the following:
 
 1. Computer or VM running any OS that supports the Docker Engine (compatible OS's can be found [here](https://docs.docker.com/engine/install/) ) + Docker Engine and Docker Compose installed  
 > [How to install Docker Desktop on Windows - includes both Engine and Compose](https://docs.docker.com/desktop/install/windows-install/)  
-> [How to install Docker Desktop on Linux - inclueds both Engine and Compose](https://docs.docker.com/desktop/install/linux-install/)  
+> [How to install Docker Desktop on Linux - includes both Engine and Compose](https://docs.docker.com/desktop/install/linux-install/)  
 > [How to install Docker Engine on Linux](https://docs.docker.com/engine/install/)  
 > [How to install Docker Compose on Linux](https://docs.docker.com/compose/install/)  
 2. The computer or VM must be able to reach DNA Center 

@@ -75,7 +75,7 @@ This is an example of a completed ".env" file for customer NHS Narnia (their dom
 
 You should see an output similar to this:
 
-![docker-compose-output](https://nca-dev.techsupport.co.uk/gitlab/DNAC/backup-policy-tool/-/raw/master/images/docker-deployment.gif)  
+![docker-compose-output](https://github.com/VMB-Devnet/dnac-backup-policy/-/raw/master/images/docker-deployment.gif)  
 
 ### Checking the deployment
 
@@ -85,6 +85,6 @@ To check that the container has been deployed correctly run:
 
 You should then see a list of all running containers and there should be an entry that looks like this:
 
-![docker-ps-output](https://nca-dev.techsupport.co.uk/gitlab/DNAC/backup-policy-tool/-/raw/master/images/docker-ex.PNG)
+![docker-ps-output](https://github.com/VMB-Devnet/dnac-backup-policy/-/raw/master/images/docker-ex.PNG)
 
 >*Note: A successfull deployment should show similar values for "CREATED" and "STATUS" which would indicate the the container runs and is not in a restart loop.*
